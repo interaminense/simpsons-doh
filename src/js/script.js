@@ -1,14 +1,7 @@
-// var q = 'passaro.png'; // nome do arquivo
-// var imagem = q.split('.');
 var idElem = "ball";
 var src = "src/img/home-simpsons.png";
 var srcPain = "src/img/home-simpsons-pain.png";
 var audio = new Audio('src/audio/doh.mp3');
-// var velocity = 2;
-
-// console.log("q", q);
-// console.log("imagem", imagem);
-// console.log("id_imagem", id_imagem);
 
 var h = 0;
 var w = 0;
@@ -39,10 +32,6 @@ function mover(ele, qnto){
 
 	h++;
 	w++;
-
-	// console.log("ww", ww);
-	// console.log("wh", wh);
-	// console.log("left", left);
 
 	var ball = document.getElementById('ball');
 
